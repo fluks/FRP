@@ -98,6 +98,5 @@ else {
         console.log(audioElement)
         console.log(videoElement)
         console.log('Successfully replaced with the fallback player, enjoy ☆⌒(ゝ。∂)')
-        alert('Successfully replaced with the fallback player, enjoy ☆⌒(ゝ。∂)')
     }
 }
