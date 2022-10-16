@@ -94,6 +94,13 @@ else {
             }
         }
 
+        target.addEventListener('keydown', e => {
+            if (e.key === 'ArrowLeft')
+                target.currentTime -= 5
+            else if (e.key === 'Arrowright')
+                target.currentTime += 5
+        })
+
         // Complete!
         console.log(audioElement)
         console.log(videoElement)
